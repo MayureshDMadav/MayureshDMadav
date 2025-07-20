@@ -3,6 +3,8 @@
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MayureshDMadav&show_icons=true&theme=tokyonight&count_private=true)
 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MayureshMadavD&show_icons=true&theme=tokyonight&count_private=true)
+
 ---
 
 ### 🚀 Tech Proficiency Overview
@@ -32,10 +34,10 @@ SQL / DBs             ████░░░░░░░░░░░░░░░�
 ### 🧩 Framework & Stack Focus
 
 ```plaintext
-React / Next.js       ███████████████░░░░░░░░░  65%
-Svelte                ██████░░░░░░░░░░░░░░░░░░  20%
-Node.js / Prisma      ████░░░░░░░░░░░░░░░░░░░░  10%
-Others (Docs / Tools) ██░░░░░░░░░░░░░░░░░░░░░░  5%
+React / Next.js       ████████████████████░░░░  85%
+Svelte                ███████████████░░░░░░░░░  60%
+Node.js / Prisma      ████████████░░░░░░░░░░░░  50%
+Others (Docs / Tools) █████░░░░░░░░░░░░░░░░░░░  15%
 ```
 
 ---
