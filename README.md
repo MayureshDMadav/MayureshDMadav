@@ -1,5 +1,5 @@
 
-## 📊 Mayuresh Madav – Skill Stats & Analytics
+## 📊 Mayuresh Madav – FrontEnd Engineer
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MayureshDMadav&show_icons=true&theme=tokyonight&count_private=true) ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MayureshMadavD&show_icons=true&theme=tokyonight&count_private=true)
 
