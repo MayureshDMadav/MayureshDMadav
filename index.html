@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mayuresh Madav - Skill Analytics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+  <div class="max-w-5xl mx-auto py-10 px-6">
+    <div class="bg-white shadow rounded-xl p-6">
+      <h1 class="text-3xl font-bold text-gray-800 mb-2">Mayuresh Madav</h1>
+      <p class="text-sm text-gray-600">SDE-2 @ Gokwik | 6+ Years Experience | Frontend Specialist</p>
+      <div class="flex flex-wrap mt-4 space-x-4 text-blue-500 underline">
+        <a href="https://portfolio-jkip.onrender.com" target="_blank">Portfolio</a>
+        <a href="https://github.com/MayureshDMadav" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/mayureshmadav" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- Skills Breakdown -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+      <div class="bg-white shadow rounded-xl p-6">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Tech Stack Usage</h2>
+        <canvas id="techChart" width="400" height="400"></canvas>
+      </div>
+
+      <div class="bg-white shadow rounded-xl p-6">
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Frontend vs Backend</h2>
+        <canvas id="frontendBackendChart" width="400" height="400"></canvas>
+      </div>
+    </div>
+
+    <!-- Notable Projects -->
+    <div class="bg-white shadow rounded-xl p-6 mt-8">
+      <h2 class="text-xl font-semibold text-gray-800 mb-4">Highlighted Projects</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li><strong>Gokwik Checkout:</strong> Optimized Svelte-based UI with performance enhancements.</li>
+        <li><strong>Mint Dashboard:</strong> Analytics & reporting dashboard built with Next.js, Recharts.</li>
+        <li><strong>Simpl Documentation Portal:</strong> API docs with Docusaurus + Swagger UI + Python.</li>
+        <li><strong>Chrome Extension:</strong> Automated Shopify app creation with React + Manifest v3.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Chart Scripts -->
+  <script>
+    const techCtx = document.getElementById('techChart');
+    new Chart(techCtx, {
+      type: 'bar',
+      data: {
+        labels: ['JavaScript', 'React', 'Next.js', 'Svelte', 'Python', 'Node.js', 'PostgreSQL'],
+        datasets: [{
+          label: 'Experience (0-10)',
+          data: [9, 9, 8, 7, 6, 7, 6],
+          backgroundColor: '#3B82F6'
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false }
+        }
+      }
+    });
+
+    const fbCtx = document.getElementById('frontendBackendChart');
+    new Chart(fbCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Frontend', 'Backend', 'Database'],
+        datasets: [{
+          data: [60, 25, 15],
+          backgroundColor: ['#10B981', '#F59E0B', '#EF4444']
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
