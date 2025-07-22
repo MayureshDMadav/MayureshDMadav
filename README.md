@@ -1,8 +1,6 @@
 
 ## 📊 Mayuresh Madav – FrontEnd Engineer
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MayureshDMadav&show_icons=true&theme=tokyonight&count_private=true) ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MayureshMadavD&show_icons=true&theme=tokyonight&count_private=true)
-
 
 
 ---
@@ -16,7 +14,7 @@
 | **Database**     | PostgreSQL, MySQL, Firebase                                                           |
 | **UI Frameworks**| Ant Design, Docusaurus, Swagger UI, Shade CDN                                        |
 | **Dev Tools**    | VS Code, Postman, PGAdmin, Docker, JIRA, Git, Signoz, Jenkins                        |
-| **Cloud/DevOps** | Render, Netlify                                                                       |
+| **Cloud/DevOps** | Render, Netlify, AWS                                                                      |
 | **OS**           | Linux, macOS, Windows                                                                 |
 
 ---
